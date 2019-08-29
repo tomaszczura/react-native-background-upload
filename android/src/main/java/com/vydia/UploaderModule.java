@@ -207,8 +207,7 @@ public class UploaderModule extends ReactContextBaseJavaModule {
 
 
       request.setMethod(method)
-        .setMaxRetries(2)
-        .setDelegate(statusDelegate);
+        .setMaxRetries(2);
 
       if (notification.getBoolean("enabled")) {
 
